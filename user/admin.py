@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from pip._internal.utils._jaraco_text import _
+from django.utils.translation import gettext_lazy as _
 
 from .models import User
 
